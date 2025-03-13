@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <span class="highlight">Sabij</span>Adhikari
+        </div>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h3>Hi There!</h3>
+            <h1>I am <span class="typing-text"></span></h1>
+            <p>I make the complex simple.</p>
+            <button class="contact-btn">Contact Me</button>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:sabij.web@gmail.com"><span>sabij.web@gmail.com</span></a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+9779845435497"><span>+977-9845435497</span></a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://www.google.com/maps/place/Kathmandu,+Nepal" target="_blank"><span>Kathmandu, Nepal</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-image">
+            <img src="471164886_1243402390103074_2999990466234910997_n.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-content">
+            <h2>Who am I?</h2>
+            <h3>I'm Sabij Adhikari, a website | chatbot Developer</h3>
+            <p>Sabij Adhikari – a website & chatbot developer crafting visually stunning and interactive digital experiences.</p>
+            <div class="personal-info">
+                <div class="info-col">
+                    <p><span>Name:</span> Sabij Adhikari</p>
+                    <p><span>Age:</span> 21</p>
+                </div>
+                <div class="info-col">
+                    <p><span>From:</span> Kathmandu, Nepal</p>
+                    <p><span>Email:</span> sabij.web@gmail.com</p>
+                </div>
+            </div>
+            <button class="download-cv">Download CV</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My <span>Services</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive and dynamic websites with modern technologies and best practices.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-cube"></i>
+                <h3>3D Design</h3>
+                <p>Creating immersive 3D models, animations, and interactive experiences using Blender and Three.js.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-robot"></i>
+                <h3>Chatbot Development</h3>
+                <p>Building intelligent chatbots using AI/ML technologies for customer service and automation.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-headset"></i>
+                <h3>Technical Support</h3>
+                <p>Providing expert technical assistance and maintenance for web applications and systems.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive and visually appealing user interfaces with focus on user experience and modern design principles.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-pencil-ruler"></i>
+                <h3>Graphic Design</h3>
+                <p>Creating stunning visual content, logos, branding materials, and marketing collateral with creative flair.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2>My <span>Work</span></h2>
+        <div class="work-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+            <button class="filter-btn" data-filter="chatbot">Chatbot Development</button>
+        </div>
+        <div class="work-grid">
+            <div class="work-card" data-category="web">
+                <div class="work-image">
+                    <img src="Screenshot 2025-03-13 195112.png" alt="Movado E-commerce Website">
+                    <div class="work-overlay">
+                        <h3>Movado E-commerce</h3>
+                        <p>Web Development | E-commerce</p>
+                        <a href="https://www.movado.com/" class="view-project" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card" data-category="uiux">
+                <div class="work-image">
+                    <img src="1895 Landing Page Templates _ Responsive Landing Pages 2025.jpeg" alt="UI/UX Design - Landing Page Templates">
+                    <div class="work-overlay">
+                        <h3>Landing Page Templates</h3>
+                        <p>UI/UX Design</p>
+                        <a href="1895 Landing Page Templates _ Responsive Landing Pages 2025.jpeg" class="view-project" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card" data-category="chatbot">
+                <div class="work-image">
+                    <img src="Screenshot 2025-01-01 124303.png" alt="Customer Service Chatbot Interface">
+                    <div class="work-overlay">
+                        <h3>Customer Service Bot</h3>
+                        <p>Chatbot Development | AI Support</p>
+                        <a href="Screenshot 2025-01-01 124303.png" class="view-project" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card" data-category="web">
+                <div class="work-image">
+                    <img src="Screenshot 2025-03-13 195610.png" alt="Phoenix Crypto Website">
+                    <div class="work-overlay">
+                        <h3>Phoenix Crypto Platform</h3>
+                        <p>Web Development | Crypto</p>
+                        <a href="https://phnix.lol/" class="view-project" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card" data-category="uiux">
+                <div class="work-image">
+                    <img src="Financial Dashboard Reports.jpeg" alt="Financial Dashboard Design">
+                    <div class="work-overlay">
+                        <h3>Financial Dashboard</h3>
+                        <p>UI/UX Design</p>
+                        <a href="Financial Dashboard Reports.jpeg" class="view-project" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card" data-category="chatbot">
+                <div class="work-image">
+                    <img src="Screenshot 2025-01-01 132303.png" alt="AI Assistant Chatbot Interface">
+                    <div class="work-overlay">
+                        <h3>AI Assistant Bot</h3>
+                        <p>Chatbot Development | Legal Assistant</p>
+                        <a href="Screenshot 2025-01-01 132303.png" class="view-project" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info-section">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://www.google.com/maps/place/Kathmandu,+Nepal" target="_blank"><span>Kathmandu, Nepal</span></a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+9779845435497"><span>+977-9845435497</span></a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:sabij.web@gmail.com"><span>sabij.web@gmail.com</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <div class="logo">
+                    <span class="highlight">Sabij</span>Adhikari
+                </div>
+                <p>I create beautiful and functional websites with a focus on user experience and modern design principles.</p>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/sabij-adhikari-3b9b14355" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sabij.web/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://www.google.com/maps/place/Kathmandu,+Nepal" target="_blank"><span>Kathmandu, Nepal</span></a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+9779845435497"><span>+977-9845435497</span></a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:sabij.web@gmail.com"><span>sabij.web@gmail.com</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sabij Adhikari. All rights reserved. | Designed with <i class="fas fa-heart"></i> by Sabij Adhikari</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
